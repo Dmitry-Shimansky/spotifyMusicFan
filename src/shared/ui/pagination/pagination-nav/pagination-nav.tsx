@@ -1,4 +1,5 @@
 import s from "./pagination-nav.module.css"
+import {getPaginationPages} from "../utils/getPaginationPage.ts";
 
 type Props = {
     current: number
